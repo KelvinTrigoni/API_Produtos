@@ -1,0 +1,10 @@
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\BancoAcesso.dll.config
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\BancoAcesso.dll
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\BancoAcesso.pdb
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\EntityFramework.dll
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\EntityFramework.xml
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\obj\Debug\BancoAcesso.csprojResolveAssemblyReference.cache
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\obj\Debug\BancoAcesso.dll
+c:\users\celso\documents\visual studio 2015\Projects\API_Produtos\BancoAcesso\obj\Debug\BancoAcesso.pdb

@@ -1,0 +1,36 @@
+﻿p{
+     margin: 30px 1000px -31px 10px;
+     color: black;
+     font-size: 22px;
+     text-decoration: none;
+}
+
+.barra{
+    background-color:black;
+    height:10px;
+}
+
+.botao{
+
+   font-size: 22px;
+   margin-left: 0.85%;
+   margin-top: -4px;
+   color: black;
+   background-color:#808080;
+   border-radius: 8px;
+   border: none;
+   letter-spacing: -0.2px;
+   cursor:pointer;
+   transition: .3s;
+   text-decoration: none;
+   position:absolute;
+}
+
+.botao:hover{
+    background-color:#464646;
+    transition: .3s;
+}
+.bloco{
+    margin-top:35px;
+    margin-left:25px;
+}

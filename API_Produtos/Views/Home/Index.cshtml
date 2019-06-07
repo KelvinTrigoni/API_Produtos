@@ -1,0 +1,42 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/CSS/CSS.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+
+    <div class="barra col-lg-12"></div>
+    <div class="bloco">
+        <label for="prodId">Código:</label>
+        <input type="text" id="prodId" size="5" />
+        <input class="botao col-lg-1 col-md-1 col-sm-1" id="botao" type="button" value="Procurar" onclick="find();" />
+        <p id="produto" />
+    </div>
+
+
+    <script type="text/javascript">
+        function find() {
+            var id = $('#prodId').val();
+            $.getJSON("/api/produtos/" + id,
+                function (data) {
+                    if (data != null) {
+                        var str = 'ID: ' + data.ID + ' Nome: ' + data.Produto + ' $: ' + data.Preco;
+                        $('#produto').text(str);
+                    }else
+                     $('#produto').text('Erro : Not Found ' );
+                });
+                }
+
+
+    </script>
+</body>
+</html>
